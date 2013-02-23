@@ -1,0 +1,54 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial;
+}
+
+div.pinboard {
+   margin: 100px auto 50px auto;
+   padding: 20px;
+   background-color: #dadbdd;
+   width: 840px;
+   height: 715px;
+}
+
+div.notice {
+   background-image: url('images/notice_bg.gif');
+   background-color: #f6f6f6;
+   padding: 21px 18px 9px 9px;
+   margin: 10px;
+   float: left;
+}
+
+div.notice, div.notice > div.content, div.notice > div.hover {
+   width: 233px;
+   height: 188px;
+}
+
+div.notice > div.content {
+   position: absolute;
+   text-align: center;
+}
+
+div.notice > div.hover {
+   background-color: rgba(255, 255, 255, 0.9);
+   position: absolute;
+   display: none;
+}
+
+div.notice > div.hover > div.moreinfo {
+   position: absolute;
+   right: 10px;
+   bottom: 10px;
+}
+
+div.notice > div.content > p {
+   padding: 5px 10px;
+}
+
+div.logo_small {
+   background-image: url('images/logo_small.jpg');
+   width: 165px;
+   height: 91px;
+   margin: -100px auto 0 auto;
+}
