@@ -1,5 +1,5 @@
+<div class="content-title"><img src="images/otherlanguages.png" alt="Other Languages" /></div>
 <div class="content">
-    <div class="title"><img src="images/otherlanguages.png" alt="Other Languages"></div>
     <div class="tutor">
         <img class="photo" src="images/tutors/eangeli.png" alt="Elisabetta Angeli" />
         <div class="description">

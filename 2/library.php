@@ -8,8 +8,8 @@
         return $next;
     }
 ?>
+<div class="content-title"><img src="images/library.png" alt="Library" /></div>
 <div class="content">
-    <div class="title"><img src="images/library.png" alt="Library" /></div>
     <div class="left">
         <img class="title" src="images/chezsophie.png" alt="Chez Sophie" />
         <p>

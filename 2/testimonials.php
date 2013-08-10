@@ -1,5 +1,5 @@
+<div class="content-title"><img src="images/testimonials_page.png" alt="Testimonials" /></div>
 <div class="content">
-    <div class="title"><img src="images/testimonials_page.png" alt="Testitmonials" /></div>
     <div class="quote">
         <img class="left" src="images/quote_left.png" />
         <img class="title" src="images/welldone.png" alt="Well done" />

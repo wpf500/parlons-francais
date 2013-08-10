@@ -1,5 +1,5 @@
+<div class="content-title"><img src="images/contactus.png" alt="Contact Us" /></div>
 <div class="content">
-    <div class="title"><img src="images/contactus.png" alt="Contact Us"></div>
     <div class="left">
         <form method="POST" id="contact">
             <textarea placeholder="Write your message here" name="message"></textarea><br />

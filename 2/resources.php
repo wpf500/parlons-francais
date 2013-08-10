@@ -1,5 +1,5 @@
+<div class="content-title"><img src="images/resources.png" alt="Resources" /></div>
 <div class="content">
-    <div class="title"><img src="images/resources.png" alt="Resources"></div>
     <img src="images/books.png" style="float:right; margin:20px" />
     <p>
         Following on from <strong>Le Fran&ccedil;ais par les Jeux</strong>, a 
