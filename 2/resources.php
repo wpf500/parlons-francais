@@ -5,8 +5,9 @@
         Following on from <strong>Le Fran&ccedil;ais par les Jeux</strong>, a 
         unique resource to enable you to teach French to 7-11 year olds with 
         lots of games and fun activities, <strong>Le Fran&ccedil;ais en 
-        Activites</strong> provides a revision of the words learnt in the first 
-        level, with more words, practised through different activities.
+        Activit&eacute;s</strong> provides a revision of the words learnt in 
+        the first level, with more words, practised through different 
+        activities.
         <br /><br />
         There are 27 different topics from everyday life (from numbers and 
         colours to verbs and adjectives), with 4 activities for each topic. You 
