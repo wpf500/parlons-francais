@@ -10,7 +10,7 @@
         industry and colleges. Our students age from 6 to 70+ and we
         are committed to satisfying the wishes of every student,
         from beginner to advanced.
-        <a class="button" href="?s=meetthetutors">Meet The Tutors</a>
+        <a class="button" href="meetthetutors">Meet The Tutors</a>
     </div>
     <div class="box right">
         <img class="logo" src="images/wlwu_logo.png" alt="Why Learn With Us" />
@@ -39,5 +39,5 @@
         This is a testimonial
         <img class="right" src="images/quote_right.png" />
     </div>
-    <a class="button" href="?s=testimonials">More Testimonials</a>
+    <a class="button" href="testimonials">More Testimonials</a>
 </div>

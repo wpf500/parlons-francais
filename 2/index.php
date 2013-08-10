@@ -5,6 +5,7 @@
 <html>
     <head>
         <title>Parlons Fran&ccedil;ais</title>
+        <base href="/v2/2/" />
         <meta name="description" content="French language courses taught by French people, Learn French with the French" />
         <link href="style.css" rel="stylesheet" type="text/css" />
         <script src="jquery-1.8.1.js" type="text/javascript"></script>
@@ -40,7 +41,7 @@
                     );
                     foreach ($nav as $link => $name) {
                         $current = $section == $link ? ' class="current"' : '';
-                        print("<li$current><a href=\"?s=$link\">$name</a></li>");
+                        print("<li$current><a href=\"$link\">$name</a></li>");
                     }
                 ?>
             </ul>
