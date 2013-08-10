@@ -1,11 +1,10 @@
 <?php
-    function nextday($day) {
-        $today = strtotime(date("Y-m-d"));
-        $next = strtotime("first $day");
-        if ($today > $next) {
-            $next = strtotime("first $day", strtotime("+ 1 month"));
+    function getnext($q) {
+        $next = strtotime($q, strtotime(date("Y-m")));
+        if (time() > $next) {
+            $next = strtotime($q, strtotime(date("Y-m", strtotime("+1 month"))));
         }
-        return $next;
+        return date("l jS F", $next);
     }
 ?>
 <div class="content-title"><img src="static/images/library.png" alt="Library" /></div>
@@ -39,8 +38,8 @@
             really good value, we're sure you will agree!
         </p>
         <p>
-            The next Tuesday session is on <strong><?=date("l jS F", nextday("tuesday"))?></strong><br />
-            The next Friday session is on <strong><?=date("l jS F", nextday("friday"))?></strong>
+            The next Tuesday session is on <strong><?=getnext("first tuesday")?></strong><br />
+            The next Friday session is on <strong><?=getnext("third friday")?></strong>
         </p>
         <p>
             Come when you want and stay as long or as little as you want! A 
