@@ -3,17 +3,6 @@
        <title>Parlons Francais</title>
        <link href="style.css" rel="stylesheet" type="text/css" />
        <script src="jquery-1.8.1.js" type="text/javascript"></script>
-       <script type="text/javascript">
-          $(function () {
-             $('ul#menu li').click(function () {
-                var index = $('ul#menu li').index(this);
-                $('ul#menu img').animate({'left': $(this).width() * index}, 200);
-                $('ul#submenu div').animate({
-                    'left': $(this).parent().width() * index * -1
-                }, 200);
-             });
-          });
-       </script>
     </head>
     <body>
        <div id="wrapper">
@@ -35,37 +24,12 @@
              </div>
           </div>
           <ul id="menu">
-             <img src="images/tab.gif" />
-             <li>French Lessons</li>
-             <li>Library</li>
-             <li>Resources</li>
-             <li>Other Languages</li>
-             <li>Testimonials</li>
-             <li>Contact Us</li>
-          </ul>
-          <ul id="submenu">
-             <div>
-                <ul>
-                   <li>Adults</li>
-                   <li>Children</li>
-                   <li>Groups</li>
-                </ul>
-                <ul>
-                   <li>Test</li>
-                </ul>
-                <ul>
-                   <li>Test1</li>
-                </ul>
-                <ul>
-                   <li>Test2</li>
-                </ul>
-                <ul>
-                   <li>Test3</li>
-                </ul>
-                <ul>
-                   <li>Test4</li>
-                </ul>
-             </div>
+             <li class="current"><a href="#">French Lessons</a></li>
+             <li><a href="#">Library</a></li>
+             <li><a href="#">Resources</a></li>
+             <li><a href="#">Other Languages</a></li>
+             <li><a href="#">Testimonials</a></li>
+             <li><a href="#">Contact Us</a></li>
           </ul>
           <div id="body">
              <div class="content">
