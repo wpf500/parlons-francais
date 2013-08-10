@@ -1,6 +1,6 @@
-<div class="content-title"><img src="images/resources.png" alt="Resources" /></div>
+<div class="content-title"><img src="static/images/resources.png" alt="Resources" /></div>
 <div class="content">
-    <img src="images/books.png" style="float:right; margin:20px" />
+    <img src="static/images/books.png" style="float:right; margin:20px" />
     <p>
         Following on from <strong>Le Fran&ccedil;ais par les Jeux</strong>, a 
         unique resource to enable you to teach French to 7-11 year olds with 

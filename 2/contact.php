@@ -1,4 +1,4 @@
-<div class="content-title"><img src="images/contactus.png" alt="Contact Us" /></div>
+<div class="content-title"><img src="static/images/contactus.png" alt="Contact Us" /></div>
 <div class="content">
     <div class="left">
         <form method="POST" id="contact">
@@ -9,15 +9,15 @@
     </div>
     <div class="right">
         <div class="contact-info one-line">
-            <img src="images/phone.png" alt="Phone number" />
+            <img src="static/images/phone.png" alt="Phone number" />
             <br />07752 185557
         </div>
         <div class="contact-info one-line">
-            <img src="images/email.png" alt="E-mail address" />
+            <img src="static/images/email.png" alt="E-mail address" />
             <br />info@parlons-francais.co.uk
         </div>
         <div class="contact-info">
-            <img src="images/post.png" alt="Home address" />
+            <img src="static/images/post.png" alt="Home address" />
             4 Grafton Court<br />
             Norwood Road<br />
             Cheltenham<br />

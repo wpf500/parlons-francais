@@ -7,23 +7,23 @@
         <title>Parlons Fran&ccedil;ais</title>
         <base href="/v2/2/" />
         <meta name="description" content="French language courses taught by French people, Learn French with the French" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <script src="jquery-1.8.1.js" type="text/javascript"></script>
+        <link href="static/style.css" rel="stylesheet" type="text/css" />
+        <script src="static/jquery-1.8.1.js" type="text/javascript"></script>
     </head>
     <body>
         <div id="wrapper">
             <div id="header">
                 <div id="logo">
-                    <a href="."><img src="images/logo_small.jpg" alt="Parlons Fran&ccedil;ais" /></a>
-                    <img src="images/lfwtf.png" alt="Learn French with the French" />
+                    <a href="."><img src="static/images/logo_small.jpg" alt="Parlons Fran&ccedil;ais" /></a>
+                    <img src="static/images/lfwtf.png" alt="Learn French with the French" />
                 </div>
                 <div id="contact">
                     07752 185 557<br />
                     info@parlons-francais.co.uk
                 </div>
                 <div id="about">
-                    <img class="logo" src="images/sophie.png" alt="Sophie Franklin" />
-                    <img class="title" src="images/welcome.png" alt="Welcome" />
+                    <img class="logo" src="static/images/sophie.png" alt="Sophie Franklin" />
+                    <img class="title" src="static/images/welcome.png" alt="Welcome" />
                     Parlons Fran&ccedil;ais is run by Sophie Franklin, a French national with a wide experience
                     of teaching to adults at all levels, secondary school students ('A' level and GCSE)
                     and young children

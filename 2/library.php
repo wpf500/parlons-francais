@@ -8,10 +8,10 @@
         return $next;
     }
 ?>
-<div class="content-title"><img src="images/library.png" alt="Library" /></div>
+<div class="content-title"><img src="static/images/library.png" alt="Library" /></div>
 <div class="content">
     <div class="left">
-        <img class="title" src="images/chezsophie.png" alt="Chez Sophie" />
+        <img class="title" src="static/images/chezsophie.png" alt="Chez Sophie" />
         <p>
             1st Tuesday of the Month<br />
             19:15 - 20:45
@@ -21,7 +21,7 @@
             16:15 - 17:45
         </p>
         <br />
-        <img src="images/library_logo.png" />
+        <img src="static/images/library_logo.png" />
     </div>
     <div class="right" style="width: 500px">
         <p>
