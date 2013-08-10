@@ -8,7 +8,7 @@
         <base href="/v2/2/" />
         <meta name="description" content="French language courses taught by French people, Learn French with the French" />
         <link href="static/style.css" rel="stylesheet" type="text/css" />
-        <script src="static/jquery-1.8.1.js" type="text/javascript"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     </head>
     <body>
         <div id="wrapper">
