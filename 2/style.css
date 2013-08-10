@@ -148,6 +148,7 @@ div.content {
 div.box {
     width: 350px;
     position: relative;
+    text-align: justify;
 }
 
 div.content a.button {
