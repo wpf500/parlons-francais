@@ -45,7 +45,7 @@
                     }
                 ?>
             </ul>
-            <?php include("$section.php"); ?>
+            <?php include("sections/$section.php"); ?>
             <div style="clear:both"></div>
         </div>
     </body>
