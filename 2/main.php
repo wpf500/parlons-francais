@@ -39,5 +39,5 @@
         This is a testimonial
         <img class="right" src="images/quote_right.png" />
     </div>
-    <a class="button" href="#">More Testimonials</a>
+    <a class="button" href="?s=testimonials">More Testimonials</a>
 </div>

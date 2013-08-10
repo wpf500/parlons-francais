@@ -161,11 +161,14 @@ div.box.right > img.logo {
 }
 
 div.quote {
-    width: 290px;
     padding: 30px 30px 0px 30px;
 }
 
-div.quote > img {
+div.quote.left, div.quote.right {
+    width: 290px;
+}
+
+div.quote > img.left, div.quote > img.right {
     width: 55px;
     height: 54px;
 }
