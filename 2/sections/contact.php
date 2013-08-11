@@ -18,10 +18,10 @@
         </div>
         <div class="contact-info">
             <img src="static/images/post.png" alt="Home address" />
-            4 Grafton Court<br />
-            Norwood Road<br />
+            12a Mayfield House<br />
+            Lansdown Road<br />
             Cheltenham<br />
-            GL52 2DG
+            GL50 2HZ
         </div>
     </div>
 </div>
