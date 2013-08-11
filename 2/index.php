@@ -15,15 +15,15 @@
         <div id="wrapper">
             <div id="header">
                 <div id="logo">
-                    <a href="."><img src="static/images/logo_small.jpg" alt="Parlons Fran&ccedil;ais" /></a>
-                    <img src="static/images/lfwtf.png" alt="Learn French with the French" />
+                    <a href="."><img id="logo-flag" src="static/images/logo_small.jpg" alt="Parlons Fran&ccedil;ais" /></a>
+                    <img id="logo-lfwtf" src="static/images/lfwtf.png" alt="Learn French with the French" />
                 </div>
                 <div id="contact">
                     07752 185 557<br />
                     info@parlons-francais.co.uk
                 </div>
                 <div id="about">
-                    <img class="logo" src="static/images/sophie.png" alt="Sophie Franklin" />
+                    <img id="about-logo" src="static/images/sophie.png" alt="Sophie Franklin" />
                     <img class="title" src="static/images/welcome.png" alt="Welcome" />
                     Parlons Fran&ccedil;ais is run by Sophie Franklin, a French national with a wide experience
                     of teaching to adults at all levels, secondary school students ('A' level and GCSE)
@@ -41,8 +41,8 @@
                         "contact" => "Contact Us"
                     );
                     foreach ($nav as $link => $name) {
-                        $current = $section == $link ? ' class="current"' : '';
-                        print("<li$current><a href=\"$link\">$name</a></li>");
+                        $current = $section == $link ? " is-current" : "";
+                        print("<li class=\"menu-item$current\"><a class=\"menu-item-link\" href=\"$link\">$name</a></li>");
                     }
                 ?>
             </ul>

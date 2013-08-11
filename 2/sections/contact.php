@@ -8,11 +8,11 @@
         </form>
     </div>
     <div class="right">
-        <div class="contact-info one-line">
+        <div class="contact-info">
             <img src="static/images/phone.png" alt="Phone number" />
             <br />07752 185557
         </div>
-        <div class="contact-info one-line">
+        <div class="contact-info">
             <img src="static/images/email.png" alt="E-mail address" />
             <br />info@parlons-francais.co.uk
         </div>

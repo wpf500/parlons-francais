@@ -6,20 +6,8 @@ body {
     line-height: 17px;
 }
 
-div#wrapper {
-    margin: 70px auto;
-    width: 950px;
-    padding: 0 35px;
-    border-left: 2px solid #878182;
-    border-right: 2px solid #878182;
-}
-
 img {
     border: 0;
-}
-
-img.title {
-    display: block;
 }
 
 textarea, input[type=text] {
@@ -29,7 +17,19 @@ textarea, input[type=text] {
     border: 1px solid #878182;
 }
 
-a.button {
+#wrapper {
+    margin: 70px auto;
+    width: 950px;
+    padding: 0 35px;
+    border-left: 2px solid #878182;
+    border-right: 2px solid #878182;
+}
+
+img.title {
+    display: block;
+}
+
+.button {
     display: block;
     background-color: #343434;
     color: white;
@@ -50,7 +50,7 @@ a.button {
 
 /************************ HEADER *********************/
 
-div#header {
+#header {
     position: relative;
     background-image: url("images/header_bg.png");
     width: 950px;
@@ -58,18 +58,18 @@ div#header {
     color: white;
 }
 
-div#logo {
+#logo {
     position: absolute;
     top: -50px;
     left: 50px;
 }
 
-div#logo img {
+#logo-flag, #logo-lfwtf {
     display: block;
     margin: 0 auto 10px auto;
 }
 
-div#about {
+#about {
     position: absolute;
     left: 285px;
     right: 285px;
@@ -79,13 +79,13 @@ div#about {
     height: 94px;
 }
 
-div#about > img.logo {
+#about-logo {
     position: absolute;
     left: -70px;
     top: -18px;
 }
 
-div#contact {
+#contact {
     position: absolute;
     top: 10px;
     right: 20px;
@@ -96,7 +96,7 @@ div#contact {
 
 /********************* MENU/SUBMENU *******************/
 
-ul#menu {
+#menu {
     margin: 0;
     padding: 10px 0;
     width: 950px;
@@ -105,85 +105,86 @@ ul#menu {
     border-bottom: 1px solid #878182;
 }
 
-ul#menu > li {
+.menu-item {
     text-align: center;
     float: left;
     width: 158px;
     height: 35px;
 }
-ul#menu > li > a {
+
+.menu-item-link {
     line-height: 35px;
     color: black;
     text-decoration: none;
 }
 
-ul#menu > li.current {
+.menu-item.is-current {
     font-weight: bold;
     background-color: #D7E3F4;
 }
 
 /************************* BODY ****************************/
 
-div.content-title {
+.content-title {
     background-color: #909090;
     padding: 10px 0px 2px 20px;
     margin: 30px 0px 15px 0px;
 }
 
-div.content {
+.content {
     width: 750px;
     position: relative;
     clear: both;
     margin: 30px 100px;
 }
 
-div.box {
+.content-button {
+    margin-top: 25px;
+    float: right;
+}
+
+.box {
     width: 350px;
     position: relative;
     text-align: justify;
 }
 
-div.content a.button {
-    margin-top: 30px;
-    float: right;
+.box-title {
+    display: block;
 }
 
-div.content img.logo {
+.content-logo, .box-logo {
     position: absolute;
     margin: 0px 20px;
-}
-
-div.content > img.logo, div.box.left > img.logo {
     right: 100%;
 }
 
-div.box.right > img.logo {
+.right .box-logo {
     left: 90%;
+    right: auto;
 }
 
-div.quote {
+.quote {
     padding: 30px 30px 0px 30px;
 }
 
-div.quote.left, div.quote.right {
+.quote.left, .quote.right {
     width: 290px;
 }
 
-div.quote > img.left, div.quote > img.right {
+.quote-ldquo, .quote-rdquo {
     width: 55px;
     height: 54px;
 }
 
-div.quote > img.left {
+.quote-ldquo {
+    float: left;
     margin: -20px 10px 10px -30px;
 }
 
-div.quote > img.right {
+.quote-rdquo {
+    float: right;
     margin: 10px -30px 0px 10px;
-}
-
-div.content > a.button {
-    clear: both;
 }
 
 div.tutor {
