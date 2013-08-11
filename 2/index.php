@@ -2,10 +2,11 @@
     $section = $_GET['s'];
     if (!$section) $section = 'main';
 ?>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Parlons Fran&ccedil;ais</title>
-        <base href="/v2/2/" />
+        <base href="http://www.parlons-francais.co.uk/v2/2/" />
         <meta name="description" content="French language courses taught by French people, Learn French with the French" />
         <link href="static/style.css" rel="stylesheet" type="text/css" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
