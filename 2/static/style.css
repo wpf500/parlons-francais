@@ -25,21 +25,6 @@ textarea, input[type=text] {
     border-right: 2px solid #878182;
 }
 
-img.title {
-    display: block;
-}
-
-.button {
-    display: block;
-    background-color: #343434;
-    color: white;
-    width: 150px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    text-decoration: none;
-}
-
 .left {
     float: left;
 }
@@ -143,6 +128,14 @@ img.title {
 }
 
 .content-button {
+    display: block;
+    background-color: #343434;
+    color: white;
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
     margin-top: 25px;
     float: right;
 }

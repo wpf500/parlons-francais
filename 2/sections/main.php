@@ -11,7 +11,7 @@
             industry and colleges. Our students age from 6 to 70+ and we
             are committed to satisfying the wishes of every student,
             from beginner to advanced.
-            <a class="button content-button" href="meetthetutors">Meet The Tutors</a>
+            <a class="content-button" href="meetthetutors">Meet The Tutors</a>
         </p>
     </div>
     <div class="box right">
@@ -43,5 +43,5 @@
         This is a testimonial
         <img class="quote-rdquo" src="static/images/quote_right.png" />
     </div>
-    <a class="button content-button" href="testimonials">More Testimonials</a>
+    <a class="content-button" href="testimonials">More Testimonials</a>
 </div>
