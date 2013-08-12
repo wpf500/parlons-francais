@@ -182,24 +182,25 @@ img.title {
     margin: 10px -30px 0px 10px;
 }
 
-div.tutor {
+.tutor {
     height: 160px;
     margin-top: 20px;
 }
 
-div.tutor > img.photo {
+.tutor-photo {
     float: left;
     width: 120px;
     height: 150px;
 }
 
-div.description {
-    padding: 15px;
+.tutor-profile {
     float: left;
+    padding: 15px;
     width: 600px;
 }
 
-div.description > img.title {
+.tutor-profile-title {
+    display: block;
     margin-bottom: 10px;
 }
 
