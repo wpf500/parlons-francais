@@ -112,15 +112,15 @@ img.title {
     height: 35px;
 }
 
+.menu-item.is-current {
+    font-weight: bold;
+    background-color: #D7E3F4;
+}
+
 .menu-item-link {
     line-height: 35px;
     color: black;
     text-decoration: none;
-}
-
-.menu-item.is-current {
-    font-weight: bold;
-    background-color: #D7E3F4;
 }
 
 /************************* BODY ****************************/
