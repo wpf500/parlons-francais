@@ -2,7 +2,7 @@
 <div class="content">
     <div class="quote">
         <img class="quote-ldquo" src="static/images/quote_left.png" />
-        <img class="title" src="static/images/welldone.png" alt="Well done" />
+        <img class="quote-title" src="static/images/welldone.png" alt="Well done" />
         &hellip; it means she got three A-levels and has been offered a place 
         at xxxxx University. Without your tuition she would definitely have 
         failed her French, and therefore not gone to University - so a HUGE 

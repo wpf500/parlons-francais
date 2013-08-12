@@ -24,7 +24,7 @@
                 </div>
                 <div id="about">
                     <img id="about-logo" src="static/images/sophie.png" alt="Sophie Franklin" />
-                    <img class="title" src="static/images/welcome.png" alt="Welcome" />
+                    <img id="about-title" src="static/images/welcome.png" alt="Welcome" />
                     Parlons Fran&ccedil;ais is run by Sophie Franklin, a French national with a wide experience
                     of teaching to adults at all levels, secondary school students ('A' level and GCSE)
                     and young children

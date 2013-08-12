@@ -85,6 +85,10 @@ img.title {
     top: -18px;
 }
 
+#about-title {
+    display: block;
+}
+
 #contact {
     position: absolute;
     top: 10px;
@@ -170,6 +174,10 @@ img.title {
 
 .quote.left, .quote.right {
     width: 290px;
+}
+
+.quote-title {
+    display: block;
 }
 
 .quote-ldquo {
