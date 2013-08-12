@@ -9,15 +9,15 @@
     </div>
     <div class="right">
         <div class="contact-info">
-            <img src="static/images/phone.png" alt="Phone number" />
+            <img class="contact-info-logo" src="static/images/phone.png" alt="Phone number" />
             <br />07752 185557
         </div>
         <div class="contact-info">
-            <img src="static/images/email.png" alt="E-mail address" />
+            <img class="contact-info-logo" src="static/images/email.png" alt="E-mail address" />
             <br />info@parlons-francais.co.uk
         </div>
         <div class="contact-info">
-            <img src="static/images/post.png" alt="Home address" />
+            <img class="contact-info-logo" src="static/images/post.png" alt="Home address" />
             12a Mayfield House<br />
             Lansdown Road<br />
             Cheltenham<br />

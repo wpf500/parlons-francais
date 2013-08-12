@@ -228,7 +228,7 @@ div.contact-info {
     height: 70px;
 }
 
-div.contact-info > img {
+.contact-info-logo {
     position: absolute;
     right: 100%;
     margin-right: 15px;
