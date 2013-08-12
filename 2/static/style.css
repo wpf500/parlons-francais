@@ -149,7 +149,7 @@ img.title {
     text-align: justify;
 }
 
-.box-title {
+.content-title, .box-title {
     display: block;
 }
 

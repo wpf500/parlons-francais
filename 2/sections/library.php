@@ -10,7 +10,7 @@
 <div class="content-header"><img src="static/images/library.png" alt="Library" /></div>
 <div class="content">
     <div class="left">
-        <img class="title" src="static/images/chezsophie.png" alt="Chez Sophie" />
+        <img class="content-title" src="static/images/chezsophie.png" alt="Chez Sophie" />
         <p>
             1st Tuesday of the Month<br />
             19:15 - 20:45

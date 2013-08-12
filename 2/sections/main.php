@@ -28,7 +28,7 @@
 </div>
 <div class="content">
     <img class="content-logo" src="static/images/testimonials_logo.png" alt="Testimonials" />
-    <img class="title" src="static/images/testimonials.png" alt="Testimonials" />
+    <img class="content-title" src="static/images/testimonials.png" alt="Testimonials" />
     <div class="quote left">
         <img class="quote-ldquo" src="static/images/quote_left.png" />
         This is a testimonial
