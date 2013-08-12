@@ -172,11 +172,6 @@ img.title {
     width: 290px;
 }
 
-.quote-ldquo, .quote-rdquo {
-    width: 55px;
-    height: 54px;
-}
-
 .quote-ldquo {
     float: left;
     margin: -20px 10px 10px -30px;
