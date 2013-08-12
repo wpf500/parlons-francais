@@ -1,4 +1,4 @@
-<div class="content-title"><img src="static/images/testimonials_page.png" alt="Testimonials" /></div>
+<div class="content-header"><img src="static/images/testimonials_page.png" alt="Testimonials" /></div>
 <div class="content">
     <div class="quote">
         <img class="left" src="static/images/quote_left.png" />

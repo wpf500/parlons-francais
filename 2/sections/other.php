@@ -1,4 +1,4 @@
-<div class="content-title"><img src="static/images/otherlanguages.png" alt="Other Languages" /></div>
+<div class="content-header"><img src="static/images/otherlanguages.png" alt="Other Languages" /></div>
 <div class="content">
     <div class="tutor">
         <img class="photo" src="static/images/tutors/eangeli.png" alt="Elisabetta Angeli" />

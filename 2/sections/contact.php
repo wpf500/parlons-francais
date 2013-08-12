@@ -1,4 +1,4 @@
-<div class="content-title"><img src="static/images/contactus.png" alt="Contact Us" /></div>
+<div class="content-header"><img src="static/images/contactus.png" alt="Contact Us" /></div>
 <div class="content">
     <div class="left">
         <form method="POST" id="contact">

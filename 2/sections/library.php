@@ -7,7 +7,7 @@
         return date("l jS F", $next);
     }
 ?>
-<div class="content-title"><img src="static/images/library.png" alt="Library" /></div>
+<div class="content-header"><img src="static/images/library.png" alt="Library" /></div>
 <div class="content">
     <div class="left">
         <img class="title" src="static/images/chezsophie.png" alt="Chez Sophie" />

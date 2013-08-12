@@ -1,4 +1,4 @@
-<div class="content-title"><img src="static/images/meetthetutors.png" alt="Meet the Tutors" /></div>
+<div class="content-header"><img src="static/images/meetthetutors.png" alt="Meet the Tutors" /></div>
 <div class="content">
     <div class="tutor" style="margin-top:0">
         <img class="photo" src="static/images/tutors/sfranklin.png" alt="Sophie Franklin" />

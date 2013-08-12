@@ -1,4 +1,4 @@
-<div class="content-title"><img src="static/images/resources.png" alt="Resources" /></div>
+<div class="content-header"><img src="static/images/resources.png" alt="Resources" /></div>
 <div class="content">
     <img src="static/images/books.png" style="float:right; margin:20px" />
     <p>
