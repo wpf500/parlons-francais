@@ -205,24 +205,29 @@ textarea, input[type=text] {
     margin-bottom: 10px;
 }
 
-form#contact > textarea {
+#contact-form-message {
     width: 420px;
     max-width: 420px;
     height: 100px;
+    display: block;
 }
 
-form#contact > label, form#contact > input[type=text] {
+#contact-form > label, #contact-form-name, #contact-form-email {
     margin-top: 10px;
     float: left;
     display: block;
-    width: 150px;
 }
 
-form#contact > input[type=text] {
+#contact-form > label {
+    width: 150px;
+    clear: left;
+}
+
+#contact-form-name, #contact-form-email {
     width: 270px;
 }
 
-div.contact-info {
+.contact-info {
     width: 200px;
     position: relative;
     height: 70px;

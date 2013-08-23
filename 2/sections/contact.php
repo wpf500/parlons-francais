@@ -1,10 +1,10 @@
 <div class="content-header"><img src="static/images/contactus.png" alt="Contact Us" /></div>
 <div class="content">
     <div class="left">
-        <form method="POST" id="contact">
-            <textarea placeholder="Write your message here" name="message"></textarea><br />
-            <label>Your name:</label><input type="text" name="name" /><br />
-            <label>Your e-mail address:</label><input type="text" name="email" />
+        <form method="POST" id="contact-form">
+            <textarea id="contact-form-message" placeholder="Write your message here" name="message"></textarea>
+            <label for="contact-form-name">Your name:</label><input id="contact-form-name" type="text" name="name" />
+            <label for="contact-form-email">Your e-mail address:</label><input id="contact-form-email" type="text" name="email" />
         </form>
     </div>
     <div class="right">
