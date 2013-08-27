@@ -108,9 +108,12 @@ textarea, input[type=text] {
     height: 35px;
 }
 
-.menu-item.is-current {
+.menu-item.is-current, .submenu-item.is-current {
     font-weight: bold;
     background-color: #D7E3F4;
+}
+
+.menu-item.is-current {
     padding-bottom: 20px;
 }
 

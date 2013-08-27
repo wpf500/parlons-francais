@@ -1,6 +1,10 @@
 <?php
     $section = $_GET["s"];
-    if (!$section) $section = "main";
+    if (!$section) {
+        $section = "main";
+    }
+
+    $subsection = $_GET["t"];
 
     function print_nav($type, $nav) {
         print("<ul id=\"$type\">");
@@ -48,16 +52,24 @@
                     "other" => "Other Languages",
                     "contact" => "Contact Us"
                 );
-                print_nav("menu", $nav);
-
                 $subnav = array(
-                    "children" => "Group Classes for Young Children",
-                    "adults" => "Group Classes for Adults",
-                    "private" => "Private Classes for Adults &amp; Secondary Students",
-                    "internet" => "Internet Teaching",
-                    "business" => "Business French"
+                    "lessons" => array(
+                        "lessons/children" => "Group Classes for Young Children",
+                        "lessons/adults" => "Group Classes for Adults",
+                        "lessons/private" => "Private Classes for Adults &amp; Secondary Students",
+                        "lessons/internet" => "Internet Teaching",
+                        "lessons/business" => "Business French"
+                    )
                 );
-                print_nav("submenu", $subnav);
+                $subnav = $subnav[$section];
+
+                print_nav("menu", $nav);
+                if ($subnav) {
+                    if ($subsection) {
+                        $section .= "/" . $subsection;
+                    }
+                    print_nav("submenu", $subnav);
+                }
 
                 include("sections/$section.php");
             ?>

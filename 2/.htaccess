@@ -1,4 +1,4 @@
 RewriteEngine On
-RewriteRule ^v2/2/static/       -                       [L]
-RewriteRule ^v2/2/index.php     -                       [L]
-RewriteRule ^v2/2/([^/.]+)/?$   v2/2/index.php?s=$1     [L]
+RewriteRule ^v2/2/static/                  -                        [L]
+RewriteRule ^v2/2/index.php                -                        [L]
+RewriteRule ^v2/2/([^/.]+)(/([^/.]+))?/?$  v2/2/index.php?s=$1&t=$3 [L]
