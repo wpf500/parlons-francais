@@ -16,9 +16,9 @@
         </div>
     </div>
     <div class="tutor">
-        <img class="tutor-photo" src="static/images/tutors/nopic.png" alt="Florentia Choo" />
+        <img class="tutor-photo" src="static/images/tutors/nopic.png" alt="Florencia Schoo" />
         <div class="tutor-profile">
-            <img class="tutor-profile-title" src="static/images/tutors/fchoo_title.png" alt="Florentia Choo" />
+            <img class="tutor-profile-title" src="static/images/tutors/fschoo_title.png" alt="Florencia Schoo" />
         </div>
     </div>
 </div>
