@@ -91,11 +91,19 @@ textarea, input[type=text] {
     width: 950px;
     height: 35px;
     list-style: none;
+}
+
+#menu {
     border-bottom: 1px solid #878182;
 }
 
+#submenu {
+    margin-top: 9px;
+    background-color: #D7E3F4;
+}
+
 .menu-item, .submenu-item {
-    text-align: center;
+    display: table;
     float: left;
     height: 35px;
 }
@@ -103,11 +111,15 @@ textarea, input[type=text] {
 .menu-item.is-current {
     font-weight: bold;
     background-color: #D7E3F4;
+    padding-bottom: 20px;
 }
 
 .menu-item-link, .submenu-item-link {
-    line-height: 35px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
     color: black;
+    text-align: center;
     text-decoration: none;
 }
 
