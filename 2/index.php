@@ -40,9 +40,10 @@
                         "other" => "Other Languages",
                         "contact" => "Contact Us"
                     );
+                    $width = 1 / count($nav) * 100;
                     foreach ($nav as $link => $name) {
                         $current = $section == $link ? " is-current" : "";
-                        print("<li class=\"menu-item$current\"><a class=\"menu-item-link\" href=\"$link\">$name</a></li>");
+                        print("<li class=\"menu-item$current\" style=\"width:$width%\"><a class=\"menu-item-link\" href=\"$link\">$name</a></li>");
                     }
                 ?>
             </ul>
