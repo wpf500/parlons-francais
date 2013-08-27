@@ -42,7 +42,7 @@
         </div>
     </div>
     <div class="tutor">
-        <img class="tutor-photo" src="static/images/tutors/nopic.png" alt="Nicole Percival" />
+        <img class="tutor-photo" src="static/images/blank.gif" alt="Nicole Percival" />
         <div class="tutor-profile">
             <img class="tutor-profile-title" src="static/images/tutors/npercival_title.png" alt="Nicole Percival" />
             <p>
