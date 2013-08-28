@@ -43,7 +43,7 @@
                     <img id="logo-lfwtf" src="static/images/lfwtf.png" alt="Learn French with the French" />
                 </div>
                 <div id="contact">
-                    07752 185 557<br />
+                    07752 185557<br />
                     info@parlons-francais.co.uk
                 </div>
                 <div id="about">
