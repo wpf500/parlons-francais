@@ -1,9 +1,6 @@
 <div class="content-header"><img src="static/images/children.png" alt="Group Classes for Young Children" /></div>
 <div class="content">
-    <div class="left">
-        <img class="content-title" src="static/images/children_logo.png" alt="Group Classes for Young Children" />
-    </div>
-    <div class="right" style="width: 500px">
+    <div class="left" style="width: 500px">
         <p>
             Classes for KS1 and KS2 children are available on request.<br />
             The lessons last half an hour and are filled with activities which 
@@ -22,5 +19,8 @@
         <p>
             Please <a href="contact">contact us</a> to book a class.
         </p>
+    </div>
+    <div class="right">
+        <img class="content-title" src="static/images/children_logo.png" alt="Group Classes for Young Children" />
     </div>
 </div>
