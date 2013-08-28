@@ -29,6 +29,6 @@
         </p>
     </div>
     <div class="right">
-        <img src="static/images/books.png" style="float:right; margin:20px" />
+        <img src="static/images/books.png" />
     </div>
 </div>
