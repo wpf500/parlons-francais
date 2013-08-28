@@ -5,6 +5,7 @@
             <textarea id="contact-form-message" placeholder="Write your message here" name="message"></textarea>
             <label for="contact-form-name">Your name:</label><input id="contact-form-name" type="text" name="name" />
             <label for="contact-form-email">Your e-mail address:</label><input id="contact-form-email" type="text" name="email" />
+            <input type="submit" value="Send" />
         </form>
     </div>
     <div class="right">

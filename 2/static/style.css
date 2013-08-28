@@ -226,7 +226,7 @@ textarea, input[type=text] {
     display: block;
 }
 
-#contact-form > label, #contact-form-name, #contact-form-email {
+#contact-form > label, #contact-form > input {
     margin-top: 10px;
     float: left;
     display: block;
@@ -235,6 +235,18 @@ textarea, input[type=text] {
 #contact-form > label {
     width: 150px;
     clear: left;
+}
+
+#contact-form > input[type=submit] {
+    padding: 0 20px;
+    float: right;
+    clear: both;
+    border: 0;
+    background-color: #343434;
+    color: white;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
 }
 
 #contact-form-name, #contact-form-email {
