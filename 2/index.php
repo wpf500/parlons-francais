@@ -1,20 +1,27 @@
 <?php
     $section = $_GET["s"];
+    $subsection = $_GET["t"];
     if (!$section) {
         $section = "main";
     }
 
-    $subsection = $_GET["t"];
-
-    function print_nav($type, $nav) {
-        print("<ul id=\"$type\">");
-        $width = 1 / count($nav) * 100;
-        foreach ($nav as $link => $name) {
-            $current = $GLOBALS["section"] == $link ? " is-current" : "";
-            print("<li class=\"$type-item$current\" style=\"width: $width%\"><a class=\"$type-item-link\" href=\"$link\">$name</a></li>");
-        }
-        print("</ul>");
-    }
+    $nav = array(
+        "lessons" => "French Lessons",
+        "library" => "Library",
+        "resources" => "Resources",
+        "testimonials" => "Testimonials",
+        "other" => "Other Languages",
+        "contact" => "Contact Us"
+    );
+    $subnavs = array(
+        "lessons" => array(
+            "children" => "Group Classes for Young Children",
+            "adults" => "Group Classes for Adults",
+            "private" => "Private Classes for Adults &amp; Secondary Students",
+            "internet" => "Internet Teaching",
+            "business" => "Business French"
+        )
+    );
 ?>
 <!DOCTYPE html>
 <html>
@@ -43,35 +50,39 @@
                     and young children
                 </div>
             </div>
-            <?php
-                $nav = array(
-                    "lessons" => "French Lessons",
-                    "library" => "Library",
-                    "resources" => "Resources",
-                    "testimonials" => "Testimonials",
-                    "other" => "Other Languages",
-                    "contact" => "Contact Us"
-                );
-                $subnav = array(
-                    "lessons" => array(
-                        "lessons/children" => "Group Classes for Young Children",
-                        "lessons/adults" => "Group Classes for Adults",
-                        "lessons/private" => "Private Classes for Adults &amp; Secondary Students",
-                        "lessons/internet" => "Internet Teaching",
-                        "lessons/business" => "Business French"
-                    )
-                );
-                $subnav = $subnav[$section];
+            <ul id="menu">
+                <?php
+                    $subnav = $subnavs[$section];
 
-                print_nav("menu", $nav);
-                if ($subnav) {
-                    if ($subsection) {
-                        $section .= "/" . $subsection;
+                    $width = 100 / count($nav);
+                    foreach ($nav as $link => $name) {
+                        $class = '';
+                        if ($section == $link) {
+                            $class = ' is-current';
+                            if ($subnav) {
+                                $class .= ' has-submenu';
+                            }
+                        }
+                        print("<li class=\"menu-item$class\" style=\"width: $width%\"><a class=\"menu-item-link\" href=\"$link\">$name</a></li>");
                     }
-                    print_nav("submenu", $subnav);
-                }
 
-                include("sections/$section.php");
+                    if ($subnav) {
+                        print('</ul><ul id="submenu">');
+
+                        $width = 100 / count($subnav);
+                        foreach ($subnav as $link => $name) {
+                            $class = $subsection == $link ? ' is-current' : '';
+                            print("<li class=\"menu-item$class\" style=\"width: $width%\"><a class=\"menu-item-link\" href=\"$section/$link\">$name</a></li>");
+                        }
+                    }
+                ?>
+            </ul>
+            <?php
+                if ($subsection) {
+                    include("sections/$section/$subsection.php");
+                } else {
+                    include("sections/$section.php");
+                }
             ?>
             <div style="clear:both"></div>
         </div>

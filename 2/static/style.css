@@ -102,22 +102,22 @@ textarea, input[type=text] {
     background-color: #D7E3F4;
 }
 
-.menu-item, .submenu-item {
+.menu-item {
     display: table;
     float: left;
     height: 35px;
 }
 
-.menu-item.is-current, .submenu-item.is-current {
+.menu-item.is-current {
     font-weight: bold;
     background-color: #D7E3F4;
 }
 
-.menu-item.is-current {
+.menu-item.is-current.has-submenu {
     padding-bottom: 20px;
 }
 
-.menu-item-link, .submenu-item-link {
+.menu-item-link {
     display: table-cell;
     vertical-align: middle;
     margin: 0 auto;
