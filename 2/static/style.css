@@ -252,3 +252,11 @@ textarea, input[type=text] {
     right: 100%;
     margin-right: 15px;
 }
+
+#footer {
+    padding-top: 20px;
+    font-size: 11px;
+    color: #878182;
+    clear: both;
+    text-align: center;
+}

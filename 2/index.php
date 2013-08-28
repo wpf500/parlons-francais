@@ -88,7 +88,11 @@
                     include("sections/$section.php");
                 }
             ?>
-            <div style="clear:both"></div>
+            <div id="footer">
+                Last updated: <?= date("d/m/Y") ?>.
+                &copy; <?= date("Y") ?> Parlons Fran&ccedil;ais.
+                All Rights Reserved.
+            </div>
         </div>
     </body>
 </html>
