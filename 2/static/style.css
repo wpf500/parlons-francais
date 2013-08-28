@@ -10,7 +10,7 @@ img {
     border: 0;
 }
 
-textarea, input[type=text] {
+textarea, input[type=text], input[type=email] {
     font-family: Arial;
     font-size: 14px;
     line-height: 17px;
@@ -234,7 +234,15 @@ textarea, input[type=text] {
 
 #contact-form > label {
     width: 150px;
-    clear: left;
+    clear: both;
+}
+
+#contact-form > .error {
+    color: red;
+    float: right;
+    width: auto;
+    font-size: 12px;
+    margin-top: 3px;
 }
 
 #contact-form > input[type=submit] {

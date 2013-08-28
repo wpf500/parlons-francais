@@ -2,9 +2,9 @@
 <div class="content">
     <div class="left">
         <form method="POST" id="contact-form">
-            <textarea id="contact-form-message" placeholder="Write your message here" name="message"></textarea>
-            <label for="contact-form-name">Your name:</label><input id="contact-form-name" type="text" name="name" />
-            <label for="contact-form-email">Your e-mail address:</label><input id="contact-form-email" type="text" name="email" />
+            <textarea id="contact-form-message" placeholder="Write your message here" name="message" required></textarea>
+            <label for="contact-form-name">Your name:</label><input id="contact-form-name" type="text" name="name" required />
+            <label for="contact-form-email">Your e-mail address:</label><input id="contact-form-email" type="email" name="email" required />
             <input type="submit" value="Send" />
         </form>
     </div>
@@ -26,3 +26,10 @@
         </div>
     </div>
 </div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+<script>
+    $('#contact-form').validate({
+        highlight: function () {}
+    });
+</script>
