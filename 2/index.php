@@ -20,6 +20,10 @@
             "private" => "Private Classes for Adults &amp; Secondary Students",
             "internet" => "Internet Teaching",
             "business" => "Business French"
+        ),
+        "resources" => array(
+            "ks2" => "KS2 Teaching Resources",
+            "media" => "French Media Guide"
         )
     );
 ?>
