@@ -8,7 +8,7 @@
     $nav = array(
         "home" => "Home",
         "lessons" => "French Lessons",
-        "library" => "Library",
+        "meetthetutors" => "Meet The Tutors",
         "resources" => "Resources",
         "testimonials" => "Testimonials",
         "other" => "Other Languages",
