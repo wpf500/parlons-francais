@@ -6,7 +6,7 @@
     }
 
     $nav = array(
-        "home" => "Home",
+        "home" => "About Us",
         "lessons" => "French Lessons",
         "meetthetutors" => "Meet The Tutors",
         "resources" => "Resources",
