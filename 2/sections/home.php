@@ -35,12 +35,19 @@
     <img class="content-title" src="static/images/testimonials.png" alt="Testimonials" />
     <div class="quote left">
         <img class="quote-ldquo" src="static/images/quote_left.png" />
-        This is a testimonial
+        <img class="quote-title" src="static/images/welldone.png" alt="Well done" />
+        &hellip; it means she got three A-levels and has been offered a place 
+        at xxxxx University. Without your tuition she would definitely have 
+        failed her French, and therefore not gone to University - so a HUGE 
+        thank you for your help.<br /><br />
+        by P.Smith
         <img class="quote-rdquo" src="static/images/quote_right.png" />
     </div>
     <div class="quote right">
         <img class="quote-ldquo" src="static/images/quote_left.png" />
-        This is a testimonial
+        Hi Sophie, thought you might like to know that Rachel scored A* for 
+        GCSE French and will be taking A Level.<br /><br />
+        by Carolyn
         <img class="quote-rdquo" src="static/images/quote_right.png" />
     </div>
     <a class="content-button" href="testimonials">More Testimonials</a>
