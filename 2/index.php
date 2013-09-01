@@ -2,10 +2,11 @@
     $section = $_GET["s"];
     $subsection = $_GET["t"];
     if (!$section) {
-        $section = "main";
+        $section = "home";
     }
 
     $nav = array(
+        "home" => "Home",
         "lessons" => "French Lessons",
         "library" => "Library",
         "resources" => "Resources",
