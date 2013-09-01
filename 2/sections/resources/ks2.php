@@ -25,7 +25,7 @@
             hard or soft copy for easy duplicating.
         </p>
         <p>
-            Order your copy <a href="#">here</a> now.
+            <a href="contact">Contact us</a> for details<!-- or order your copy <a href="#">here</a> now-->.
         </p>
     </div>
     <div class="right">
