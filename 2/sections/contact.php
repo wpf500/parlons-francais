@@ -3,16 +3,21 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     if ($message && $name && $email) {
-        $to = "info@parlons-francais.co.uk";
-        $subject = "Parlons Français web enquiry from $name";
-        $message = "This enquiry is from $name ($email) via the Parlons Français web site.\r\n".
-         "=======================================\r\n\r\n$message";
-        mail($to, $subject, $message, "Reply-To: $email");
+        $pf_to = "info@parlons-francais.co.uk";
+        $pf_subject = "Parlons Français web enquiry from $name";
+        $pf_message =
+"This enquiry is from $name ($email) via the Parlons Français web site.\r\n
+=======================================\r\n\r\n
+$message";
+        mail($pf_to, $pf_subject, $pf_message, "Reply-To: $email");
 
-        $subject = "Automatic message acknowledgement";
-        $message = "The following message has been sent from you to Parlons Français.\r\n".
-        "(This acknowledgement is from an automatic service that does not accept replies).\r\n\r\n".$mesage;
-        mail ($email, $subject, $message);
+        /*$subject = "Automatic message acknowledgement";
+        $ack_message = """
+            The following message has been sent from you to Parlons Français.\r\n
+            (This acknowledgement is from an automatic service that does not accept replies).\r\n\r\n
+            $message
+        """;
+        mail($email, $subject, $ack_message, "From: \"Parlons Francais\" <$to>");*/
 
         $sent = true;
     }
