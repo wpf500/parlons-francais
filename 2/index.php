@@ -19,8 +19,7 @@
             "children" => "Group Classes for Young Children",
             "adults" => "Group Classes for Adults",
             "private" => "Private Classes for Adults &amp; Secondary Students",
-            "internet" => "Internet Teaching",
-            "business" => "Business French"
+            "internet" => "Internet Teaching"
         ),
         "resources" => array(
             "ks2" => "KS2 Teaching Resources",
