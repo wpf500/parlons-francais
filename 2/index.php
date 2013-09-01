@@ -38,8 +38,9 @@
             ?>
             Parlons Fran&ccedil;ais
         </title>
-        <base href="http://www.parlons-francais.co.uk/v2/2/" />
+        <base href="http://www.parlons-francais.co.uk/" />
         <meta name="description" content="French language courses taught by French people, Learn French with the French" />
+        <meta name="keywords" content="french, group, france, classes, cheltenham, gloucester, translation, children, adults, internet, teaching, courses, tutoring">
         <link href="static/style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
