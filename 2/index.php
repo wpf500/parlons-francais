@@ -18,7 +18,7 @@
         "lessons" => array(
             "children" => "Group Classes for Young Children",
             "adults" => "Group Classes for Adults",
-            "private" => "Private Classes for Adults &amp; Secondary Students",
+            "private" => "Private Classes for Adults and Secondary Students",
             "internet" => "Internet Teaching"
         ),
         "resources" => array(
