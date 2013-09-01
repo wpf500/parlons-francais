@@ -9,10 +9,9 @@
         "home" => "About Us",
         "lessons" => "French Lessons",
         "meetthetutors" => "Meet The Tutors",
-        "resources" => "Resources",
         "testimonials" => "Testimonials",
-        "other" => "Other Languages",
-        "contact" => "Contact Us"
+        "contact" => "Contact Us",
+        "links" => "Useful Links"
     );
     $subnavs = array(
         "lessons" => array(
