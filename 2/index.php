@@ -29,7 +29,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Parlons Fran&ccedil;ais</title>
+        <title>
+            <?php
+                if ($subsection) {
+                    print($subnavs[$section][$subsection] . " | ");
+                }
+                print($nav[$section] . " |");
+            ?>
+            Parlons Fran&ccedil;ais
+        </title>
         <base href="http://www.parlons-francais.co.uk/v2/2/" />
         <meta name="description" content="French language courses taught by French people, Learn French with the French" />
         <link href="static/style.css" rel="stylesheet" type="text/css" />
