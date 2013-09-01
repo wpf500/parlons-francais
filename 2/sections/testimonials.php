@@ -6,10 +6,8 @@
         &hellip; it means she got three A-levels and has been offered a place 
         at xxxxx University. Without your tuition she would definitely have 
         failed her French, and therefore not gone to University - so a HUGE 
-        thank you for your help.<br />
-        <br />
+        thank you for your help.<br /><br />
+        by Sophie1252
         <img class="quote-rdquo" src="static/images/quote_right.png" />
-        by Sophie1252<br />
-        Saturday, September 15 2012
     </div>
 </div>
