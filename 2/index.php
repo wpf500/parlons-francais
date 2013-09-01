@@ -11,7 +11,7 @@
         "meetthetutors" => "Meet The Tutors",
         "testimonials" => "Testimonials",
         "contact" => "Contact Us",
-        "links" => "Useful Links"
+        "resources" => "Resources"
     );
     $subnavs = array(
         "lessons" => array(
