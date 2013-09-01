@@ -6,7 +6,7 @@
             to the internet, you can book your class, AND have your lesson 
             online wherever you are! All you need is a headset and Skype, which 
             is free to download <a href="http://www.skype.com">here</a>. If you 
-            haev a webcome, you will be able to see the tutor and vice-versa. 
+            have a webcam, you will be able to see the tutor and vice-versa. 
             Tuition is specially designed to suit each individual's 
             requirements.
         </p>
