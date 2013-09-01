@@ -120,7 +120,6 @@ textarea, input[type=text], input[type=email] {
 .menu-item-link {
     display: table-cell;
     vertical-align: middle;
-    margin: 0 auto;
     color: black;
     text-align: center;
     text-decoration: none;
