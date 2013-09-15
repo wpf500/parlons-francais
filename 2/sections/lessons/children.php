@@ -9,9 +9,8 @@
             lessons.
         </p>
         <p>
-            The lessons start at &pound;8.00 per week but decrease depending on 
-            the number of students joining the class. Maximum 4 children per 
-            class, at a cost of just &pound;4.00 per child.
+            The lessons start at &pound;9.00 per week but decrease depending on 
+            the number of students joining the class.
         </p>
         <p>
             Bring your friends and it will be cheaper!
