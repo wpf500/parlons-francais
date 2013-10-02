@@ -10,7 +10,6 @@
                 students ('A' level and GCSE) and young children. I
                 currently teach group and individual classes (including
                 via Skype), as well as business french to local industry.
-                I run our bi-weekly Library drop-in sessions.&rdquo;
             </p>
         </div>
     </div>
@@ -60,7 +59,7 @@
             <img class="tutor-profile-title" src="static/images/tutors/msummersgill_title.png" alt="Muriel Summersgill" />
             <p>
                 &ldquo;Hello, there! I really enjoy teaching French but
-                also the culture of the country. I have a dual, cultral
+                also the culture of the country. I have a dual, cultural
                 background as I grew up in Madagascar. I believe that
                 this has enabled me to be more understanding of
                 people&rsquo;s needs in terms of learning and

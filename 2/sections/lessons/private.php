@@ -11,7 +11,7 @@
             <ul>
                 <li><strong>Adults:</strong> &pound;23.00 per hour</li>
                 <li><strong>Children up to GCSE level:</strong> &pound;20.00 per hour</li>
-                <li><strong>Perparation for AS and A2 exams:</strong> &pound;23.00 per hour</li>
+                <li><strong>Preparation for AS and A2 exams:</strong> &pound;23.00 per hour</li>
             </ul>
         </p>
         <p>
