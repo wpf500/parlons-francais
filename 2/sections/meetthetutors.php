@@ -9,7 +9,7 @@
                 teaching French to adults at all levels, secondary school
                 students ('A' level and GCSE) and young children. I
                 currently teach group and individual classes (including
-                via Skype), as well as business french to local industry.
+                via Skype), as well as business french to local industry.&rdquo;
             </p>
         </div>
     </div>
@@ -21,7 +21,7 @@
                 &ldquo;I am a fully qualified teacher with 20+
                 year&rsquo; experience, born and raised in the south-east
                 of France. Having taught French in schools across the
-                Cotswolds, I now tutor group and individuual classes,
+                Cotswolds, I now tutor group and individual classes,
                 across all ages and levels. I am based in Gloucester, but
                 am happy to travel.&rdquo;
             </p>
