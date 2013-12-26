@@ -15,9 +15,10 @@
             travelling time and expenses.
         </p>
         <p>
-            <strong>Adults:</strong> &pound;23.00 per hour<br />
-            <strong>Children up to GCSE level:</strong> &pound;20.00 per hour<br />
-            <strong>Perparation for AS and A2 exams:</strong> &pound;23.00 per hour<br />
+            <b>Adults:</b> &pound;23.00 per hour<br />
+            <b>Perparation for AS and A2 exams:</b> &pound;23.00 per hour<br />
+            <b>Children up to GCSE level:</b> &pound;20.00 per hour<br />
+            <b>Children in primary school:</b> &pound;18.00 per hour, 60% discount for second child<br />
         </p>
         <p>
             A generous discount is applicable for advance block payments of 10 
