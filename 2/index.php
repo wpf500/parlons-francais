@@ -1,4 +1,6 @@
 <?php
+    include("db.php");
+
     $section = $_GET["s"];
     $subsection = $_GET["t"];
     if (!$section) {
