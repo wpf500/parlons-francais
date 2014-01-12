@@ -7,6 +7,8 @@
         $section = "home";
     }
 
+    $admin = strpos($_SERVER['REQUEST_URI'], "/admin") === 0;
+
     $nav = array(
         "home" => "About Us",
         "lessons" => "French Lessons",
@@ -27,6 +29,35 @@
             "media" => "French Media Guide"
         )
     );
+
+    function content($section, $subsection=NULL) {
+        $q = "SELECT body FROM content WHERE section='$section'";
+        if ($subsection) {
+            $q .= " AND subsection='$subsection'";
+        }
+
+        $result = mysql_query($q);
+        $row = mysql_fetch_row($result);
+        $body = $row[0];
+
+        if ($GLOBALS["admin"]) {
+            print "<form method=\"POST\">";
+            print "<input type=\"hidden\" name=\"section\" value=\"$section\" />";
+            print "<input type=\"hidden\" name=\"subsection\" value=\"$subsection\" />";
+            print "<textarea name=\"body\" class=\"admin\">$body</textarea>";
+            print "<button>Save</button>";
+            print "</form>";
+        } else {
+            return $body;
+        }
+    }
+
+    $body = mysql_escape_string($_POST["body"]);
+    if ($body && $admin) {
+        $q = "UPDATE content SET body='$body' WHERE section='$_POST[section]'";
+        $q .= " AND subsection='$_POST[subsection]'";
+        mysql_query($q);
+    }
 ?>
 <!DOCTYPE html>
 <html>
@@ -40,7 +71,7 @@
             ?>
             Parlons Fran&ccedil;ais
         </title>
-        <base href="http://www.parlons-francais.co.uk/" />
+        <base href="http://www.parlons-francais.co.uk/<?php if ($admin) echo "admin/"?>" />
         <meta name="description" content="French language courses taught by French people, Learn French with the French" />
         <meta name="keywords" content="french, group, france, classes, cheltenham, gloucester, translation, children, adults, internet, teaching, courses, tutoring">
         <link href="static/style.css" rel="stylesheet" type="text/css" />

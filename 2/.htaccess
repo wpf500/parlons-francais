@@ -1,6 +1,16 @@
 RewriteEngine On
-RewriteRule ^resources/?$              /resources/ks2         [L,R=302]
-RewriteRule ^lessons/?$                /lessons/children      [L,R=302]
+RewriteRule ^(admin/)?resources/?$     /$1resources/ks2       [L,R=302]
+RewriteRule ^(admin/)?lessons/?$       /$1lessons/children    [L,R=302]
+RewriteRule ^admin(/.*)                $1                     [E=auth]
 RewriteRule ^static/                   -                      [L]
-RewriteRule ^index.php                 -                      [L]
 RewriteRule ^([^/.]+)(/([^/.]+))?/?$   /index.php?s=$1&t=$3   [L]
+
+AuthType Basic
+AuthName "admin"
+AuthUserFile /home/sites/parlons-francais.co.uk/public_html/passwd
+Require valid-user
+
+Order deny,allow
+Satisfy any
+Deny from env=REDIRECT_auth
+Allow from any

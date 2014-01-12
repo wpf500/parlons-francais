@@ -37,7 +37,7 @@ $message";
             <textarea id="contact-form-message" placeholder="Write your message here" name="message" required></textarea>
             <label for="contact-form-name">Your name:</label><input id="contact-form-name" type="text" name="name" required />
             <label for="contact-form-email">Your e-mail address:</label><input id="contact-form-email" type="email" name="email" required />
-            <input type="submit" value="Send" />
+            <button>Send</button>
         </form>
         <?php
             }
