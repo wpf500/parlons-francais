@@ -13,19 +13,22 @@
 <div class="content">
     <img class="content-logo" src="static/images/testimonials_logo.png" alt="Testimonials" />
     <img class="content-title" src="static/images/testimonials.png" alt="Testimonials" />
+    <?php
+        $result = mysql_query("SELECT name, testimonial FROM testimonials ORDER BY time DESC LIMIT 2");
+        $one = mysql_fetch_assoc($result);
+        $two = mysql_fetch_assoc($result);
+    ?>
     <div class="quote left">
         <img class="quote-ldquo" src="static/images/quote_left.png" />
-        I've enjoyed stretching my brain in such good company and wish you all 
-        the best for the future, thanks for everything. Thanks Anne for everything<br /><br />
-        - Catherine
+        <?=$one["testimonial"]?><br /><br />
+        - <?=$one["name"]?>
         <img class="quote-rdquo" src="static/images/quote_right.png" />
     </div>
     <div class="quote right">
         <img class="quote-ldquo" src="static/images/quote_left.png" />
-        Hi Sophie, thought you might like to know that Rachel scored A* for 
-        GCSE French and will be taking A Level.<br /><br />
-        - Carolyn
+        <?=$two["testimonial"]?><br /><br />
+        - <?=$two["name"]?>
         <img class="quote-rdquo" src="static/images/quote_right.png" />
     </div>
-    <a class="content-button" href="testimonials">More Testimonials</a>
+    <a class="content-button" style="clear: both" href="testimonials">More Testimonials</a>
 </div>

@@ -177,6 +177,7 @@ textarea, input[type=text], input[type=email] {
 
 .quote {
     padding: 30px 30px 0px 30px;
+    clear: right;
 }
 
 .quote.left, .quote.right {
