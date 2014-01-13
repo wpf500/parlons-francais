@@ -36,10 +36,9 @@
         </div>
     </div>
     <div class="tutor">
-        <img class="tutor-photo" src="static/images/tutors/josette.jpg" alt="Josette" />
+        <img class="tutor-photo" src="static/images/tutors/josette.jpg" alt="Josette Champness" />
         <div class="tutor-profile">
-            <!--<img class="tutor-profile-title" src="static/images/tutors/josette_title.png" alt="Josette" />-->
-            <b>Josette</b>
+            <img class="tutor-profile-title" src="static/images/tutors/jchampness_title.png" alt="Josette Champness" />
             <?=content("meetthetutors", "josette")?>
         </div>
     </div>
