@@ -83,6 +83,12 @@ textarea, input[type=text], input[type=email] {
     font-weight: bold;
 }
 
+#fb {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
 /********************* MENU/SUBMENU *******************/
 
 #menu, #submenu {

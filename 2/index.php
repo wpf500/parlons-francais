@@ -77,6 +77,14 @@
         <link href="static/style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <div id="wrapper">
             <div id="header">
                 <div id="logo">
@@ -93,6 +101,9 @@
                     Parlons Fran&ccedil;ais is run by Sophie Franklin, a French national with a wide experience
                     of teaching to adults at all levels, secondary school students ('A' level and GCSE)
                     and young children
+                </div>
+                <div id="fb">
+                    <div class="fb-like" data-href="https://www.facebook.com/pages/Parlons-Francais/142365292611867" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
                 </div>
             </div>
             <ul id="menu">
