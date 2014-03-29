@@ -26,11 +26,11 @@
         ),
         "links" => array(
             "ks2" => "KS2 Resources",
-            "media" => "Media"#,
+            "media" => "Media",
             #"library" => "Library",
             #"club" => "Club des Enfants",
             #"parler" => "Aimez-vous parler",
-            #"other" => "Other Languages"
+            "other" => "Other Languages"
         )
     );
 
