@@ -1,5 +1,6 @@
 RewriteEngine On
 RewriteRule ^(admin/)?resources/?$     /$1resources/ks2       [L,R=302]
+RewriteRule ^(admin/)?links/?$         /$1links/ks2           [L,R=302]
 RewriteRule ^(admin/)?lessons/?$       /$1lessons/children    [L,R=302]
 RewriteRule ^admin(/.*)                $1                     [E=auth]
 RewriteRule ^static/                   -                      [L]
