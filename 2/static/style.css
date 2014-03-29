@@ -183,7 +183,10 @@ header {
 
 .quote {
     padding: 30px 30px 0px 30px;
-    clear: right;
+}
+
+.quote.left {
+    clear: left;
 }
 
 .quote.left, .quote.right {
