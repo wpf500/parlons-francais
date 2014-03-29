@@ -46,6 +46,8 @@
 
         if ($GLOBALS["admin"]) {
             print "<form method=\"POST\">";
+            print "<input type=\"hidden\" name=\"section\" value=\"$section\" />";
+            print "<input type=\"hidden\" name=\"subsection\" value=\"$subsection\" />";
             print "<textarea name=\"body\" class=\"admin\">$body</textarea>";
             print "<button>Save</button>";
             print "</form>";
@@ -56,8 +58,8 @@
 
     $body = mysql_escape_string($_POST["body"]);
     if ($body && $admin) {
-        $q = "UPDATE content SET body='$body' WHERE section='$section'";
-        $q .= " AND subsection='$subsection'";
+        $q = "UPDATE content SET body='$body' WHERE section='$_POST[section]'";
+        $q .= " AND subsection='$_POST[subsection]'";
         mysql_query($q);
     }
 ?>
