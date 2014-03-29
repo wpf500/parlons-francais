@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="tutor">
-        <img class="tutor-photo" src="static/images/blank.gif" alt="Florencia Schoo" />
+        <img class="tutor-photo" src="static/images/tutors/fschoo.png" alt="Florencia Schoo" />
         <div class="tutor-profile">
             <img class="tutor-profile-title" src="static/images/tutors/fschoo_title.png" alt="Florencia Schoo" />
             <?=content("links-other", "fschoo")?>
