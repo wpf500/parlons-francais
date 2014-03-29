@@ -28,8 +28,7 @@
             "ks2" => "KS2 Resources",
             "media" => "Media",
             #"library" => "Library",
-            #"club" => "Club des Enfants",
-            #"parler" => "Aimez-vous parler",
+            "club" => "Club des Enfants",
             "other" => "Other Languages"
         )
     );
