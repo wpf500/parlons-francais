@@ -25,10 +25,11 @@
             "internet" => "Internet Teaching"
         ),
         "links" => array(
-            "ks2" => "KS2 Resources",
-            "media" => "Media",
+            "ks2" => "KS2 Teaching Resources",
+            "media" => "French Media Guide",
             #"library" => "Library",
-            "club" => "Club des Enfants",
+            "club" => "Saturday Children's French Club",
+            "cotswolds" => "Translation & French in the Cotswold Villages",
             "other" => "Other Languages"
         )
     );

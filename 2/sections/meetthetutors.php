@@ -29,13 +29,6 @@
         </div>
     </div>
     <div class="tutor">
-        <img class="tutor-photo" src="static/images/tutors/msummersgill.png" alt="Muriel Summersgill" />
-        <div class="tutor-profile">
-            <img class="tutor-profile-title" src="static/images/tutors/msummersgill_title.png" alt="Muriel Summersgill" />
-            <?=content("meetthetutors", "msummersgill")?>
-        </div>
-    </div>
-    <div class="tutor">
         <img class="tutor-photo" src="static/images/tutors/josette.jpg" alt="Josette Champness" />
         <div class="tutor-profile">
             <img class="tutor-profile-title" src="static/images/tutors/jchampness_title.png" alt="Josette Champness" />
