@@ -15,7 +15,7 @@
         "meetthetutors" => "Meet The Tutors",
         "testimonials" => "Testimonials",
         "contact" => "Contact Us",
-        "resources" => "Resources"
+        "links" => "Useful Links"
     );
     $subnavs = array(
         "lessons" => array(
@@ -24,9 +24,13 @@
             "private" => "Private Classes for Adults and Secondary Students",
             "internet" => "Internet Teaching"
         ),
-        "resources" => array(
-            "ks2" => "KS2 Teaching Resources",
-            "media" => "French Media Guide"
+        "links" => array(
+            "ks2" => "KS2 Resources",
+            "media" => "Media"#,
+            #"library" => "Library",
+            #"club" => "Club des Enfants",
+            #"parler" => "Aimez-vous parler",
+            #"other" => "Other Languages"
         )
     );
 
