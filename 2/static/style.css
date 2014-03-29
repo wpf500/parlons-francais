@@ -35,7 +35,7 @@ textarea, input[type=text], input[type=email] {
 
 /************************ HEADER *********************/
 
-#header {
+header {
     position: relative;
     background-image: url("images/header_bg.png");
     width: 950px;
@@ -280,7 +280,7 @@ button {
     margin-right: 15px;
 }
 
-#footer {
+footer {
     padding-top: 20px;
     font-size: 11px;
     color: #878182;

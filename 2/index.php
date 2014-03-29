@@ -88,7 +88,7 @@
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
         <div id="wrapper">
-            <div id="header">
+            <header>
                 <div id="logo">
                     <a href="."><img id="logo-flag" src="static/images/logo_small.jpg" alt="Parlons Fran&ccedil;ais" /></a>
                     <img id="logo-lfwtf" src="static/images/lfwtf.png" alt="Learn French with the French" />
@@ -107,46 +107,50 @@
                 <div id="fb">
                     <div class="fb-like" data-href="https://www.facebook.com/pages/Parlons-Francais/142365292611867" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
                 </div>
-            </div>
-            <ul id="menu">
-                <?php
-                    $subnav = $subnavs[$section];
+            </header>
+            <nav>
+                <ul id="menu">
+                    <?php
+                        $subnav = $subnavs[$section];
 
-                    $width = 100 / count($nav);
-                    foreach ($nav as $link => $name) {
-                        $class = '';
-                        if ($section == $link) {
-                            $class = ' is-current';
-                            if ($subnav) {
-                                $class .= ' has-submenu';
+                        $width = 100 / count($nav);
+                        foreach ($nav as $link => $name) {
+                            $class = '';
+                            if ($section == $link) {
+                                $class = ' is-current';
+                                if ($subnav) {
+                                    $class .= ' has-submenu';
+                                }
+                            }
+                            print("<li class=\"menu-item$class\" style=\"width: $width%\"><a class=\"menu-item-link\" href=\"$link\">$name</a></li>");
+                        }
+
+                        if ($subnav) {
+                            print('</ul><ul id="submenu">');
+
+                            $width = 100 / count($subnav);
+                            foreach ($subnav as $link => $name) {
+                                $class = $subsection == $link ? ' is-current' : '';
+                                print("<li class=\"menu-item$class\" style=\"width: $width%\"><a class=\"menu-item-link\" href=\"$section/$link\">$name</a></li>");
                             }
                         }
-                        print("<li class=\"menu-item$class\" style=\"width: $width%\"><a class=\"menu-item-link\" href=\"$link\">$name</a></li>");
-                    }
-
-                    if ($subnav) {
-                        print('</ul><ul id="submenu">');
-
-                        $width = 100 / count($subnav);
-                        foreach ($subnav as $link => $name) {
-                            $class = $subsection == $link ? ' is-current' : '';
-                            print("<li class=\"menu-item$class\" style=\"width: $width%\"><a class=\"menu-item-link\" href=\"$section/$link\">$name</a></li>");
-                        }
+                    ?>
+                </ul>
+            </nav>
+            <main>
+                <?php
+                    if ($subsection) {
+                        include("sections/$section/$subsection.php");
+                    } else {
+                        include("sections/$section.php");
                     }
                 ?>
-            </ul>
-            <?php
-                if ($subsection) {
-                    include("sections/$section/$subsection.php");
-                } else {
-                    include("sections/$section.php");
-                }
-            ?>
-            <div id="footer">
+            </main>
+            <footer>
                 Last updated: <?= date("d/m/Y") ?>.
                 &copy; <?= date("Y") ?> Parlons Fran&ccedil;ais.
                 All Rights Reserved.
-            </div>
+            </footer>
         </div>
     </body>
 </html>
